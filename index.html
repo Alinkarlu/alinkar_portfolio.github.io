@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio of Alinkar Lu</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/06f9e35711.js" crossorigin="anonymous"></script>
+</head>
+<body>
+   <div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Backend Developer</p>
+            <h1>Hi, I'm <span>Alinkar</span><br>Lu</h1>
+        </div>
+    </div>
+   </div>
+<!-------about---------->
+   <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I am Alinkar Lu, currently in my fourth year of studies, majoring in Computer Engineering with a specialization in Digital Media Engineering. My academic journey reflects a strong passion for technology, coupled with an unyielding commitment to achieving excellence. I am excited to apply my skills and knowledge to make a significant impact in the field of computer engineering and digital media innovation.</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Game Development</span><br>Redeveloping & Designing the games</li>
+                        <li><span>Web Development</span><br>Web app Development</li>
+                        <li><span>App Development</span><br>Building Android/iOS apps</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2022 - 2023</span><br>Redeveloping Block Smasher Game, creating "Ta Ta's in the middle of nowhere, designing main character of the game called "Run Bacon Run" </li>
+                        <li><span>2022 - 2023</span><br>Creating a website for Digital Media Engineering, KKU</li>
+                        <li><span>2023 - 2024</span><br>Creating a website called "Thai Para Athletics"</li>
+                        <li><span>2023 - 2024</span><br>Creating an application called "Gear Studio Information Tracker"</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2021 - current</span><br>Studying Bachelor of Computer Engineering specialized in Digital-Media at Khon Kaen University(Thailand)</li>
+                        <li><span>Jun 2023 - Jul 2023</span><br>Attended Summer Program in Animation studies, Comtemporary Arts & Design at Saitama University(Japan)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+   </div>
+   <!--------services---------->
+   <div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web development</h2>
+                <p>Presenting state-of-the-art platforms meticulously crafted to seamlessly integrate creativity, technology, and efficiency.</p>
+                <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>App development</h2>
+                <p>offering to empower you business with a comprehensive solution to enhance efficiency and productivity.</p>
+                <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-gamepad"></i>
+                <h2>Game development & design</h2>
+                <p>Catering to your unique needs with artistic flair to bring your vision to life & helping you achieve success in the dynamic world of gaming.</p>
+                <a href="#">learn more</a>
+            </div>
+        </div>
+    </div>
+   </div>
+   <!-----------portfolio------------>
+   <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Works</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png">
+                <div class="layer">
+                    <h3>Gear Studio InfoTracker App</h3>
+                    <p>From tracking equipment inventory to managing project details, Gear Studio Information Tracker offers a comprehensive solution to enhance efficiency and productivity.</p>
+                    <a href="https://www.canva.com/design/DAF_77U5hGU/3jtuLX4ETrJZrrZm29qIRw/edit?utm_content=DAF_77U5hGU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png">
+                <div class="layer">
+                    <h3>Dig-Media Engineering Web</h3>
+                    <p>Our vibrant online hub showcases the latest advancements and insights in the field of digital media engineering.</p>
+                    <a href="https://www.canva.com/design/DAFyFaIdc94/haJf-OpqqS74BWtty_EGBw/edit?utm_content=DAFyFaIdc94&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png">
+                <div class="layer">
+                    <h3>Thai Para Athletics Web</h3>
+                    <p>Our website offers a range of features tailored for both users and administrators.</p>
+                    <a href="https://www.canva.com/design/DAGAxd_FK-k/t0VXVpm3dmuSg34CFlRU9Q/edit?utm_content=DAGAxd_FK-k&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a href="#" class="btn">See more</a>
+   </div>
+   <!---------contact-------------->
+   <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-regular fa-paper-plane"></i>alinkar.l@kkumail.com</p>
+                <p><i class="fa-solid fa-phone-volume"></i>+66 805055730</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/alinkar.lu.54"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.linkedin.com/in/alinkar-lu-8277161b5"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/Alinkarlu"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.instagram.com/alinkarlu/?hl=en"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit"class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Aliinkar Lu. Made with <i class="fa-solid fa-heart"></i>. All Rights Reserved.</p>
+   <script>
+    
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+   </script>
+   
+   <script>
+
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+   </script>
+   <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyU2QGGySETVX7ZGo90JBxRhcVPrRbIzDKPEDC-xFhvjI1V397GOIsXG1to8WoxIaujmw/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"})
+        .catch(error => console.error('Error!', error.message))
+        setTimeout(function(){
+            msg.innerHTML = ""
+        },5000)   
+        form.reset()
+    })
+    
+  </script>
+  
+</body>
+</html>
